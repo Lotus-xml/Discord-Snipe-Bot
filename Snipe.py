@@ -1,4 +1,4 @@
-#made by @n3m3s1s.ngo on instagram (:
+#made by @Lotus.pyc on instagram (:
 
 import asyncio
 import discord
@@ -29,11 +29,9 @@ print(f'''
                        {Fore.RED}║                                               ║ 
                        {Fore.RED}╚═══════════════════════════════════════════════╝
 
-                        {Fore.CYAN}K A R M A ' S  A  B I T C H !
-
                         {Fore.RED}Karma Instagram: {Fore.GREEN}@karma.ngo_
-                        {Fore.RED}Creator Instagram: {Fore.BLUE}@n3m3s1s.ngo
-                        {Fore.RED}Creator Discord: {Fore.GREEN}N3m3s1s#1002
+                        {Fore.RED}Creator Instagram: {Fore.BLUE}@Lotus.pyc
+                        {Fore.RED}Creator Discord: {Fore.GREEN}Lotus#8986
 
 ''')
 
@@ -42,7 +40,7 @@ intents = discord.Intents.all()
 Karma = discord.Client()
 Karma = commands.Bot(
     description='snipe',
-    command_prefix="s.",
+    command_prefix=".",
     reconnect=True
 )
 Karma.remove_command('help') 
